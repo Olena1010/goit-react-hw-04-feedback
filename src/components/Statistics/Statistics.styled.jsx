@@ -15,7 +15,7 @@ export const StatsList = styled.ul`
 export const Item = styled.li`
   text-transform: capitalize;
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
   padding-bottom: 35px;
   border-bottom: 1px solid rgb(181, 181, 181);
@@ -29,4 +29,11 @@ export const Item = styled.li`
   border-bottom: 1px solid rgb(181, 181, 181);
   margin: 0;
   padding: 0 0 10px 0;
+`;
+export const Span = styled.span`
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 1px 10px;
+  margin-left: 8px;
 `;
